@@ -18,5 +18,5 @@ load_dir() {
     rsync -a --delete "$2/" "$1/" || fail "Failed to sync $2 to $1"
 }
 
-load_dir ~/.config/nvim .nvim
+load_dir ~/.config/nvim ./nvim
 
