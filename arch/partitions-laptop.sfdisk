@@ -1,0 +1,11 @@
+label: gpt
+label-id: A712A46F-390F-47F7-8295-7EE1588B4937
+device: /dev/nvme0n1
+unit: sectors
+first-lba: 34
+last-lba: 1000215182
+sector-size: 512
+
+/dev/nvme0n1p1 : start=        2048, size=     2097152, type=C12A7328-F81F-11D2-BA4B-00A0C93EC93B, uuid=F8C15479-9D4D-493C-B3B1-A151A3F33D45, name="efi"
+/dev/nvme0n1p2 : start=     2099200, size=    33554432, type=0657FD6D-A4AB-43C4-84E5-0933C84B4F4F, uuid=DFDFB9A4-00EA-4C13-983A-41DA78B63601, name="swap"
+/dev/nvme0n1p3 : start=    35653632, size=   964560896, type=0FC63DAF-8483-4772-8E79-3D69D8477DE4, uuid=0317F7D7-EED0-4EAA-AEAA-228C0F705C49, name="root"
