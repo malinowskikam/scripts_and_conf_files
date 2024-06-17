@@ -40,6 +40,9 @@ echo "---Ranking mirrors"
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup
 
+# ENABLE MULTILIB
+# /etc/pacman.conf - uncoment multilib section
+
 echo "---Instaling arch"
 pacstrap -K /mnt base linux linux-firmware linux-headers
 

@@ -12,7 +12,7 @@ echo "---Add pacman hook for nvidia"
 mkdir -p /etc/pacman.d/hooks
 echo "[Trigger]
 Operation=Install
-Operation=Updrade
+Operation=Upgrade
 Operation=Remove
 Type=Package
 Target=nvidia
