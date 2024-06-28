@@ -2,12 +2,8 @@
 
 set -e
 
-echo "xorg-server
-xorg-xinit
-xorg-xkill
-xterm
+echo "
 plasma-meta
-plasma-workspace
 ark
 dolphin
 konsole
@@ -15,3 +11,5 @@ sddm
 " | pacman -Sy --needed -
 
 systemctl enable sddm.service
+systemctl enable bluetooth.service
+systemctl enable NetworkManager.service

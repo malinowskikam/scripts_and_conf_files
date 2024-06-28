@@ -2,12 +2,7 @@
 
 set -e
 
-echo "firefox
-discord
-steam
-keepassxc
-vlc
-qbittorrent
+echo "
 ffmpeg
 openssh
 git
@@ -24,6 +19,7 @@ jq
 curl
 wget
 neofetch
+wireguard-tools
 man-db
 man-pages
 terminus-font
@@ -44,8 +40,10 @@ ttf-liberation
 ttf-opensans
 ttf-roboto
 ttf-ubuntu-font-family
+x264
+x265
+xvidcore
 " | pacman -Sy --needed -
 
-systemctl enable bluetooth.service
-systemctl enable NetworkManager.service
+
 systemctl enable docker.service
