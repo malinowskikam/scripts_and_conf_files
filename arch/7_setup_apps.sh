@@ -9,4 +9,5 @@ steam
 keepassxc
 vlc
 qbittorrent
+obsidian
 " | pacman -Sy --needed -

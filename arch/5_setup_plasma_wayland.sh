@@ -7,6 +7,8 @@ plasma-meta
 ark
 dolphin
 konsole
+wl-clipboard
+xorg-xwayland
 sddm
 " | pacman -Sy --needed -
 
