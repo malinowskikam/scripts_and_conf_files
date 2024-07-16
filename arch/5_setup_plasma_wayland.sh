@@ -7,6 +7,7 @@ plasma-meta
 ark
 dolphin
 konsole
+spectacle
 wl-clipboard
 xorg-xwayland
 sddm

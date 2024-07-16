@@ -23,5 +23,3 @@ ttf-roboto
 ttf-ubuntu-font-family
 " | pacman -Sy --needed -
 
-
-systemctl enable docker.service
