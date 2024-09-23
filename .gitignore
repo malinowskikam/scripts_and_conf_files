@@ -1,2 +1,5 @@
 .backup
 
+# Lazy.nvim plugin manager lock file 
+**/lazy-lock.json
+
